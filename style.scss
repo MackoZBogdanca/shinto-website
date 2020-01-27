@@ -1,0 +1,218 @@
+@import "node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+$decorative-font-color: #e63912;
+$decorative-font-color-darker: #b02000;
+$gray-font-color: #6d6d6d;
+
+body {
+  font-family: mr-eaves-xl-modern, sans-serif;
+  background-color: rgb(20, 20, 20);
+  font-size: 1.3rem;
+}
+
+.banshee-font {
+  font-family: banshee-std, sans-serif;
+  font-weight: 700;
+  color: $decorative-font-color;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 2rem;
+  color: $decorative-font-color;
+}
+
+.nav-item {
+  margin-left: 2em;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.button {
+  background-color: $decorative-font-color;
+  border-color: $decorative-font-color;
+}
+
+.button:hover {
+  background-color: $decorative-font-color-darker;
+  border-color: $decorative-font-color-darker;
+}
+
+.card-block {
+  background-color: #000;
+}
+
+.card-title {
+  color: $decorative-font-color;
+}
+
+.card-text {
+  color: #fff;
+  font-weight: 100;
+}
+
+.hero {
+  background-image: url(/images/hero-bg.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding-top: 20vh;
+  padding-bottom: 25vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #fff;
+}
+
+.lead {
+  margin-bottom: 1.5em;
+}
+
+.about-title {
+  background-image: url(/images/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 45vw;
+}
+
+.about-text {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+@include media-breakpoint-up(md) {
+  .about-text {
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+  }
+}
+
+.band-member-name {
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.band-member-position {
+  color: $gray-font-color;
+}
+
+.band-members {
+  position: relative;
+}
+
+.band-member {
+  margin-bottom: 1.5em;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+@include media-breakpoint-up(md) {
+  .band-member {
+    position: absolute;
+    top: -3em;
+    z-index: 100;
+  }
+}
+
+.parallax {
+  background-image: url(/images/parallax-image.jpg);
+  display: none;
+}
+
+@include media-breakpoint-up(md) {
+  .parallax {
+    height: 40vmax;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: block;
+  }
+}
+
+.music {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.music-container {
+  background: #000;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
+  padding-top: 7vh;
+  padding-bottom: 7vh;
+}
+
+.music-title {
+  margin-bottom: 0.5em;
+}
+
+.music-cta {
+  margin-top: 2em;
+}
+
+.shows {
+  margin-top: 2em;
+  font-size: 0.8em;
+}
+
+.show-info {
+  display: flex;
+  flex-direction: column;
+
+  .btn {
+    margin-top: auto;
+  }
+}
+
+.show-info > * {
+  margin-bottom: 0;
+}
+
+.date {
+  font-weight: 700;
+  margin-top: 1.25em;
+}
+
+.price {
+  font-weight: 700;
+
+  small {
+    font-weight: 200;
+  }
+}
+
+footer {
+  margin-top: 4em;
+  background-color: #000;
+  padding: 2em 0 1.5em;
+  color: $gray-font-color;
+  text-align: center;
+}
+
+footer p {
+  color: $gray-font-color;
+}
+
+@include media-breakpoint-up(lg) {
+  footer {
+    text-align: left;
+  }
+}
+
+.social-link:not(:first-of-type)::before {
+  content: "/";
+  display: inline-block;
+}
+
+.social-link a {
+  color: $gray-font-color;
+  display: inline-block;
+  margin: 0 0.5em 0 0.7em;
+}
+
+@include media-breakpoint-up(lg) {
+  .social-links {
+    text-align: right;
+  }
+}
