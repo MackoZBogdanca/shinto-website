@@ -4292,32 +4292,12 @@ p.lead {
   }
 }
 
-.band-member-name {
-  text-transform: uppercase;
-  margin-bottom: 0.25em;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.band-member-position {
-  color: #6d6d6d;
-}
-
-.band-members {
-  position: relative;
-}
-
-.band-member {
-  margin-bottom: 1.5em;
-  -webkit-box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
-}
-
 @media (min-width: 768px) {
-  .band-member {
+  .slider {
     position: absolute;
+    margin-top: -15em;
+    padding-top: 15em;
     z-index: 100;
-    margin-top: 8em;
   }
 }
 
