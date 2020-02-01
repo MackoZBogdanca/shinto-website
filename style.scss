@@ -51,29 +51,35 @@ body {
 }
 
 .hero {
-  background-image: url(/images/hero-bg.jpg);
+  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   background-size: cover;
-  background-position: bottom center;
-  padding-top: 20vh;
-  padding-bottom: 25vh;
+  background-position: center;
+  padding-top: 27vh;
+  padding-bottom: 27vh;
 }
 
 h1,
 h2,
 h3,
 p {
-  color: #fff;
+  color: #003891;
 }
 
 .lead {
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5em;
+}
+
+p.lead {
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .about-title {
-  background-image: url(/images/about-bg.jpg);
+  background-image: url(/images/Kuniteru_Gozu_dragon.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 45vw;
+  min-height: 100vw;
+  min-width: 100vh;
 }
 
 .about-text {
@@ -111,19 +117,20 @@ p {
 @include media-breakpoint-up(md) {
   .band-member {
     position: absolute;
-    top: -3em;
+    // top: -3em;
     z-index: 100;
+    margin-top: 8em;
   }
 }
 
 .parallax {
-  background-image: url(/images/parallax-image.jpg);
+  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   display: none;
 }
 
 @include media-breakpoint-up(md) {
   .parallax {
-    height: 40vmax;
+    height: 50vmax;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
