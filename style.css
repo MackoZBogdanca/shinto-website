@@ -4294,8 +4294,6 @@ p.lead {
 @media (min-width: 768px) {
   .slider {
     position: absolute;
-    margin-top: -15em;
-    padding-top: 15em;
     z-index: 100;
   }
 }
