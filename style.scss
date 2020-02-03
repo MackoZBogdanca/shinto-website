@@ -78,8 +78,8 @@ p.lead {
   background-image: url(/images/Kuniteru_Gozu_dragon.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 100vw;
-  min-width: 100vh;
+  min-height: 100vh;
+  // min-width: 100vh;
 }
 
 .about-text {
@@ -135,7 +135,7 @@ p.lead {
 }
 
 .parallax {
-  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
+  background-image: url(/images/Great_Wave_off_Kanagawa2v2.jpg);
   display: none;
 }
 
