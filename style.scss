@@ -16,6 +16,17 @@ body {
   color: $decorative-font-color;
 }
 
+h1,
+h2,
+h3,
+p {
+  color: #003891;
+}
+
+
+// Navbar styles <----------------------------------------
+
+
 .navbar-dark .navbar-brand {
   font-size: 2rem;
   color: $decorative-font-color;
@@ -27,6 +38,10 @@ body {
   font-size: 1.2rem;
 }
 
+
+// All buttons styles <----------------------------------------
+
+
 .button {
   background-color: $decorative-font-color;
   border-color: $decorative-font-color;
@@ -36,6 +51,10 @@ body {
   background-color: $decorative-font-color-darker;
   border-color: $decorative-font-color-darker;
 }
+
+
+// Cards styles <----------------------------------------
+
 
 .card-block {
   background-color: #000;
@@ -50,19 +69,16 @@ body {
   font-weight: 100;
 }
 
+
+// Hero section styles <----------------------------------------
+
+
 .hero {
   background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   background-size: cover;
   background-position: center;
   padding-top: 27vh;
   padding-bottom: 27vh;
-}
-
-h1,
-h2,
-h3,
-p {
-  color: #003891;
 }
 
 .lead {
@@ -73,6 +89,10 @@ p.lead {
   font-size: 1.3rem;
   font-weight: 700;
 }
+
+
+// About section styles <----------------------------------------
+
 
 .about-title {
   background-image: url(/images/Kuniteru_Gozu_dragon.jpg);
@@ -93,6 +113,9 @@ p.lead {
     padding-bottom: 15vh;
   }
 }
+
+
+//          <----------------------------------------
 
 // .band-member-name {
 //   text-transform: uppercase;
@@ -123,6 +146,12 @@ p.lead {
 //   }
 // }
 
+//          <----------------------------------------
+
+
+// Carousel styles <----------------------------------------
+
+
 @include media-breakpoint-up(md) {
   .slider {
     position: absolute;
@@ -131,9 +160,13 @@ p.lead {
     z-index: 100;
     // height: 20em;
     // width: 30em;
-    // margin-top: 3.5em;
+    margin-top: 3.5em;
   }
 }
+
+
+// Parallax styles <----------------------------------------
+
 
 .parallax {
   background-image: url(/images/Great_Wave_off_Kanagawa2v2.jpg);
@@ -150,7 +183,11 @@ p.lead {
   }
 }
 
-.music {
+
+// Photos section styles <----------------------------------------
+
+
+.bakemono {
   margin-top: 5em;
   margin-bottom: 5em;
 }
@@ -200,6 +237,10 @@ p.lead {
     font-weight: 200;
   }
 }
+
+
+// Footer styles <----------------------------------------
+
 
 footer {
   margin-top: 4em;

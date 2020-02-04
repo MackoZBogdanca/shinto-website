@@ -4214,6 +4214,13 @@ body {
   color: #e63912;
 }
 
+h1,
+h2,
+h3,
+p {
+  color: #003891;
+}
+
 .navbar-dark .navbar-brand {
   font-size: 2rem;
   color: #e63912;
@@ -4256,13 +4263,6 @@ body {
   padding-bottom: 27vh;
 }
 
-h1,
-h2,
-h3,
-p {
-  color: #003891;
-}
-
 .lead {
   margin-bottom: 2.5em;
 }
@@ -4295,6 +4295,7 @@ p.lead {
   .slider {
     position: absolute;
     z-index: 100;
+    margin-top: 3.5em;
   }
 }
 
@@ -4313,7 +4314,7 @@ p.lead {
   }
 }
 
-.music {
+.bakemono {
   margin-top: 5em;
   margin-bottom: 5em;
 }
