@@ -20,7 +20,7 @@ h1,
 h2,
 h3,
 p {
-  color: #003891;
+  color: $gray-font-color;
 }
 
 
@@ -74,11 +74,41 @@ p {
 
 
 .hero {
-  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
+  // background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   background-size: cover;
   background-position: center;
-  padding-top: 27vh;
+  // padding-top: 8em;
   padding-bottom: 27vh;
+}
+
+@include media-breakpoint-up(xs) {
+  .hero {
+    padding-top: 4em;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .hero {
+    padding-top: 8em;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .hero {
+    padding-top: 2em;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .hero {
+    padding-top: 6em;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .hero {
+    padding-top: 12em;
+  }
 }
 
 .lead {
@@ -95,7 +125,7 @@ p.lead {
 
 
 .about-title {
-  background-image: url(/images/Kuniteru_Gozu_dragon.jpg);
+  background-image: url(/images/Hokusai44_lake-suwa.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -183,6 +213,10 @@ p.lead {
   }
 }
 
+#hero-bg {
+  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
+  display: block;
+}
 
 // Photos section styles <----------------------------------------
 

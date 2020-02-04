@@ -4218,7 +4218,7 @@ h1,
 h2,
 h3,
 p {
-  color: #003891;
+  color: #6d6d6d;
 }
 
 .navbar-dark .navbar-brand {
@@ -4243,11 +4243,37 @@ p {
 }
 
 .hero {
-  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   background-size: cover;
   background-position: center;
-  padding-top: 27vh;
   padding-bottom: 27vh;
+}
+
+.hero {
+  padding-top: 4em;
+}
+
+@media (min-width: 576px) {
+  .hero {
+    padding-top: 8em;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 2em;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    padding-top: 6em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    padding-top: 12em;
+  }
 }
 
 .lead {
@@ -4260,7 +4286,7 @@ p.lead {
 }
 
 .about-title {
-  background-image: url(/images/Kuniteru_Gozu_dragon.jpg);
+  background-image: url(/images/Hokusai44_lake-suwa.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -4301,6 +4327,11 @@ p.lead {
     background-position: center;
     display: block;
   }
+}
+
+#hero-bg {
+  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
+  display: block;
 }
 
 .bakemono {
