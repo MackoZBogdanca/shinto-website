@@ -4242,19 +4242,6 @@ p {
   border-color: #b02000;
 }
 
-.card-block {
-  background-color: #000;
-}
-
-.card-title {
-  color: #e63912;
-}
-
-.card-text {
-  color: #fff;
-  font-weight: 100;
-}
-
 .hero {
   background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   background-size: cover;
@@ -4295,7 +4282,9 @@ p.lead {
   .slider {
     position: absolute;
     z-index: 100;
-    margin-top: 3.5em;
+    height: 35vmax;
+    width: 60vmax;
+    margin: 10em 18.5em;
   }
 }
 
