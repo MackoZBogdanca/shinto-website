@@ -4218,7 +4218,7 @@ h1,
 h2,
 h3,
 p {
-  color: #6d6d6d;
+  color: #b02000;
 }
 
 .navbar-dark .navbar-brand {
@@ -4339,7 +4339,7 @@ p.lead {
   margin-bottom: 5em;
 }
 
-.music-container {
+.bakemono-container {
   background: #000;
   -webkit-box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
@@ -4347,11 +4347,11 @@ p.lead {
   padding-bottom: 7vh;
 }
 
-.music-title {
+.bakemono-title {
   margin-bottom: 0.5em;
 }
 
-.music-cta {
+.bakemono-cta {
   margin-top: 2em;
 }
 
@@ -4399,7 +4399,15 @@ footer {
   text-align: center;
 }
 
-footer p {
+.copyright-link {
+  color: #6d6d6d;
+}
+
+.copyright-link:hover {
+  color: #6d6d6d;
+}
+
+.copyright-link:active {
   color: #6d6d6d;
 }
 

@@ -20,12 +20,10 @@ h1,
 h2,
 h3,
 p {
-  color: $gray-font-color;
+  color: $decorative-font-color-darker;
 }
 
-
 // Navbar styles <----------------------------------------
-
 
 .navbar-dark .navbar-brand {
   font-size: 2rem;
@@ -38,9 +36,7 @@ p {
   font-size: 1.2rem;
 }
 
-
 // All buttons styles <----------------------------------------
-
 
 .button {
   background-color: $decorative-font-color;
@@ -52,9 +48,7 @@ p {
   border-color: $decorative-font-color-darker;
 }
 
-
 // Cards styles <----------------------------------------
-
 
 // .card-block {
 //   background-color: #000;
@@ -69,9 +63,7 @@ p {
 //   font-weight: 100;
 // }
 
-
 // Hero section styles <----------------------------------------
-
 
 .hero {
   // background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
@@ -120,9 +112,7 @@ p.lead {
   font-weight: 700;
 }
 
-
 // About section styles <----------------------------------------
-
 
 .about-title {
   background-image: url(/images/Hokusai44_lake-suwa.jpg);
@@ -143,7 +133,6 @@ p.lead {
     padding-bottom: 15vh;
   }
 }
-
 
 //          <----------------------------------------
 
@@ -178,9 +167,7 @@ p.lead {
 
 //          <----------------------------------------
 
-
 // Carousel styles <----------------------------------------
-
 
 @include media-breakpoint-up(md) {
   .slider {
@@ -194,9 +181,7 @@ p.lead {
   }
 }
 
-
 // Parallax styles <----------------------------------------
-
 
 .parallax {
   background-image: url(/images/Great_Wave_off_Kanagawa2v2.jpg);
@@ -220,24 +205,23 @@ p.lead {
 
 // Photos section styles <----------------------------------------
 
-
 .bakemono {
   margin-top: 5em;
   margin-bottom: 5em;
 }
 
-.music-container {
+.bakemono-container {
   background: #000;
   box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.5);
   padding-top: 7vh;
   padding-bottom: 7vh;
 }
 
-.music-title {
+.bakemono-title {
   margin-bottom: 0.5em;
 }
 
-.music-cta {
+.bakemono-cta {
   margin-top: 2em;
 }
 
@@ -272,9 +256,7 @@ p.lead {
   }
 }
 
-
 // Footer styles <----------------------------------------
-
 
 footer {
   margin-top: 4em;
@@ -284,7 +266,15 @@ footer {
   text-align: center;
 }
 
-footer p {
+.copyright-link {
+  color: $gray-font-color;
+}
+
+.copyright-link:hover {
+  color: $gray-font-color;
+}
+
+.copyright-link:active {
   color: $gray-font-color;
 }
 
