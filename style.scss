@@ -5,29 +5,31 @@ $decorative-font-color-darker: #b02000;
 $gray-font-color: #6d6d6d;
 
 body {
-  font-family: mr-eaves-xl-modern, sans-serif;
+  font-family: los-feliz, serif;
   background-color: rgb(20, 20, 20);
   font-size: 1.3rem;
 }
 
-.banshee-font {
-  font-family: banshee-std, sans-serif;
-  font-weight: 700;
-  color: $decorative-font-color;
+.decorative-font {
+  font-family: baroque-text-jf, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 3px 3px 2px $gray-font-color;
 }
 
 h1,
 h2,
 h3,
 p {
-  color: $decorative-font-color-darker;
+  color: rgb(255, 200, 60);
+  text-shadow: 2px 2px 2px #000;
 }
 
 // Navbar styles <----------------------------------------
 
 .navbar-dark .navbar-brand {
   font-size: 2rem;
-  color: $decorative-font-color;
+  color: #fff;
 }
 
 .nav-item {
@@ -39,13 +41,15 @@ p {
 // All buttons styles <----------------------------------------
 
 .button {
-  background-color: $decorative-font-color;
-  border-color: $decorative-font-color;
+  background-color: $decorative-font-color-darker;
+  border-color: $decorative-font-color-darker;
+  box-shadow: 3px 3px 2px $gray-font-color;
+  font-family: baroque-text-jf, sans-serif;
 }
 
 .button:hover {
-  background-color: $decorative-font-color-darker;
-  border-color: $decorative-font-color-darker;
+  background-color: $gray-font-color;
+  border-color: $gray-font-color;
 }
 
 // Cards styles <----------------------------------------
@@ -75,7 +79,7 @@ p {
 
 @include media-breakpoint-up(xs) {
   .hero {
-    padding-top: 4em;
+    padding-top: 6em;
   }
 }
 
@@ -87,7 +91,7 @@ p {
 
 @include media-breakpoint-up(md) {
   .hero {
-    padding-top: 2em;
+    padding-top: 1em;
   }
 }
 
@@ -99,7 +103,7 @@ p {
 
 @include media-breakpoint-up(xl) {
   .hero {
-    padding-top: 12em;
+    padding-top: 10em;
   }
 }
 
