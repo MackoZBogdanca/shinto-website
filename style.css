@@ -4277,7 +4277,7 @@ p {
 
 @media (min-width: 1200px) {
   .hero {
-    padding-top: 10em;
+    padding-top: 12em;
   }
 }
 
@@ -4291,7 +4291,7 @@ p.lead {
 }
 
 .about-title {
-  background-image: url(/images/Hokusai44_lake-suwa.jpg);
+  background-image: url(/images/Hokusai44_lake-suwa2v2.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -4320,7 +4320,7 @@ p.lead {
 }
 
 .parallax {
-  background-image: url(/images/Great_Wave_off_Kanagawa2v2.jpg);
+  background-image: url(/images/Great_Wave_off_Kanagawa2v3.jpg);
   display: none;
 }
 
@@ -4360,12 +4360,12 @@ p.lead {
   margin-top: 2em;
 }
 
-.shows {
+.temple {
   margin-top: 2em;
   font-size: 0.8em;
 }
 
-.show-info {
+.temple-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4375,25 +4375,8 @@ p.lead {
           flex-direction: column;
 }
 
-.show-info .btn {
+.temple-info .btn {
   margin-top: auto;
-}
-
-.show-info > * {
-  margin-bottom: 0;
-}
-
-.date {
-  font-weight: 700;
-  margin-top: 1.25em;
-}
-
-.price {
-  font-weight: 700;
-}
-
-.price small {
-  font-weight: 200;
 }
 
 footer {
