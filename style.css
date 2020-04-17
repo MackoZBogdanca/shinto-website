@@ -4247,45 +4247,45 @@ p {
   border-color: #6d6d6d;
 }
 
-.hero {
+.main {
   background-size: cover;
   background-position: center;
   padding-bottom: 27vh;
 }
 
-.hero {
+.main {
   padding-top: 6em;
 }
 
 @media (min-width: 576px) {
-  .hero {
+  .main {
     padding-top: 8em;
   }
 }
 
 @media (min-width: 768px) {
-  .hero {
+  .main {
     padding-top: 1em;
   }
 }
 
 @media (min-width: 992px) {
-  .hero {
+  .main {
     padding-top: 6em;
   }
 }
 
 @media (min-width: 1200px) {
-  .hero {
+  .main {
     padding-top: 12em;
   }
 }
 
-.lead {
+.main-info {
   margin-bottom: 2.5em;
 }
 
-p.lead {
+p.main-info {
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -4337,7 +4337,7 @@ p.lead {
   }
 }
 
-#hero-bg {
+#main-bg {
   background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   display: block;
 }

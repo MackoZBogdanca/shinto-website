@@ -52,49 +52,49 @@ p {
   border-color: $gray-font-color;
 }
 
-// Hero section styles <----------------------------------------
+// main section styles <----------------------------------------
 
-.hero {
+.main {
   background-size: cover;
   background-position: center;
   padding-bottom: 27vh;
 }
 
 @include media-breakpoint-up(xs) {
-  .hero {
+  .main {
     padding-top: 6em;
   }
 }
 
 @include media-breakpoint-up(sm) {
-  .hero {
+  .main {
     padding-top: 8em;
   }
 }
 
 @include media-breakpoint-up(md) {
-  .hero {
+  .main {
     padding-top: 1em;
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .hero {
+  .main {
     padding-top: 6em;
   }
 }
 
 @include media-breakpoint-up(xl) {
-  .hero {
+  .main {
     padding-top: 12em;
   }
 }
 
-.lead {
+.main-info {
   margin-bottom: 2.5em;
 }
 
-p.lead {
+p.main-info {
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -151,7 +151,7 @@ p.lead {
   }
 }
 
-#hero-bg {
+#main-bg {
   background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
   display: block;
 }
