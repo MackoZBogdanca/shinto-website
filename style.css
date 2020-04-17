@@ -4291,7 +4291,7 @@ p.main-info {
 }
 
 .about-title {
-  background-image: url(/images/Hokusai44_lake-suwa2v2.jpg);
+  background-image: url(images/Hokusai44_lake-suwa2v2.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -4323,7 +4323,7 @@ p.main-info {
 }
 
 .parallax {
-  background-image: url(/images/Great_Wave_off_Kanagawa2v3.jpg);
+  background-image: url(images/Great_Wave_off_Kanagawa2v3.jpg);
   display: none;
 }
 
@@ -4338,7 +4338,7 @@ p.main-info {
 }
 
 #main-bg {
-  background-image: url(/images/Amaterasu_cave_-_large_-_1856.jpeg);
+  background-image: url(images/Amaterasu_cave_-_large_-_1856.jpeg);
   display: block;
 }
 
